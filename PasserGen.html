@@ -663,7 +663,7 @@
                }
               
                if (tips.length === 0) {
-                   tips.push('Looks great! Your password is strong and secure. 🤩');
+                   tips.push('Looks great! Your password is strong and secure.');
                }
 
 
@@ -694,10 +694,10 @@
 
 
                if (isPwned) {
-                   pwnedStatus.textContent = '⚠️ Oh no! This password has been found in a data breach. DO NOT USE IT.';
+                   pwnedStatus.textContent = 'This password has been found in a data breach. DO NOT USE IT.';
                    pwnedStatus.className = 'text-center font-semibold p-2 rounded-lg text-white bg-red-500';
                } else {
-                   pwnedStatus.textContent = '✅ Great! Your password was not found in a public data breach.';
+                   pwnedStatus.textContent = 'Great! Your password was not found in a public data breach.';
                    pwnedStatus.className = 'text-center font-semibold p-2 rounded-lg text-white bg-green-500';
                }
            }
@@ -748,10 +748,10 @@
 
 
                if (isCorrect) {
-                   captchaMessage.textContent = 'Verification successful! 🎉';
+                   captchaMessage.textContent = 'Verification successful';
                    captchaMessage.className = 'text-center font-semibold mt-4 text-green-600';
                } else {
-                   captchaMessage.textContent = 'Verification failed. Please try again. 😔';
+                   captchaMessage.textContent = 'Verification failed. Please try again.';
                    captchaMessage.className = 'text-center font-semibold mt-4 text-red-600';
                    generateCaptcha();
                }
@@ -1430,7 +1430,7 @@
                }
               
                if (tips.length === 0) {
-                   tips.push('Looks great! Your password is strong and secure. 🤩');
+                   tips.push('Looks great! Your password is strong and secure.');
                }
 
 
@@ -1515,10 +1515,10 @@
 
 
                if (isCorrect) {
-                   captchaMessage.textContent = 'Verification successful! 🎉';
+                   captchaMessage.textContent = 'Verification successful';
                    captchaMessage.className = 'text-center font-semibold mt-4 text-green-600';
                } else {
-                   captchaMessage.textContent = 'Verification failed. Please try again. 😔';
+                   captchaMessage.textContent = 'Verification failed. Please try again';
                    captchaMessage.className = 'text-center font-semibold mt-4 text-red-600';
                    generateCaptcha();
                }
@@ -1531,4 +1531,5 @@
        });
    </script>
 </body>
+
 </html>
