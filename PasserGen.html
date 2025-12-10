@@ -1461,10 +1461,10 @@
 
 
                if (isPwned) {
-                   pwnedStatus.textContent = '⚠️ Oh no! This password has been found in a data breach. DO NOT USE IT.';
+                   pwnedStatus.textContent = ' This password has been found in a data breach. DO NOT USE IT.';
                    pwnedStatus.className = 'text-center font-semibold p-2 rounded-lg text-white bg-red-500';
                } else {
-                   pwnedStatus.textContent = '✅ Great! Your password was not found in a public data breach.';
+                   pwnedStatus.textContent = ' Your password was not found in a public data breach.';
                    pwnedStatus.className = 'text-center font-semibold p-2 rounded-lg text-white bg-green-500';
                }
            }
@@ -1533,3 +1533,4 @@
 </body>
 
 </html>
+
